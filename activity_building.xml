@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="1dp">
+        >
+
+        <Button
+            android:id="@+id/num1"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:text="1  공학관"
+            android:onClick="button1"
+            android:layout_alignParentLeft="true"
+            android:fontFamily="@font/hanna"
+            android:background="@drawable/custom_btn"
+            >
+        </Button>
+
+        <Button
+            android:id="@+id/num2"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:text="2  대학본부-인문1관"
+            android:onClick="button2"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:layout_toRightOf="@+id/num1"
+            android:background="@drawable/custom_btn"
+            android:fontFamily="@font/hanna">
+        </Button>
+
+        <Button
+            android:id="@+id/num3"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:text="3  의학관"
+            android:onClick="button3"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:layout_below="@+id/num2"
+            android:background="@drawable/custom_btn"
+            android:fontFamily="@font/hanna"
+            >
+        </Button>
+
+        <Button
+            android:id="@+id/num4"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:text="4  인문2관"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:layout_below="@+id/num2"
+            android:onClick="button4"
+            android:background="@drawable/custom_btn"
+            android:fontFamily="@font/hanna"
+            android:layout_toRightOf="@+id/num3">
+        </Button>
+
+        <Button
+            android:id="@+id/num5"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:text="5  대학본부별관"
+            android:onClick="button5"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:fontFamily="@font/hanna"
+            android:background="@drawable/custom_btn"
+            android:layout_below="@+id/num3"
+            >
+        </Button>
+
+        <Button
+            android:id="@+id/num6"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:text="6  실험동물센터"
+            android:layout_below="@+id/num3"
+            android:fontFamily="@font/hanna"
+            android:background="@drawable/custom_btn"
+            android:onClick="button6"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:layout_toRightOf="@+id/num5">
+        </Button>
+
+        <Button
+            android:id="@+id/num7"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/num5"
+            android:onClick="button7"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:fontFamily="@font/hanna"
+            android:background="@drawable/custom_btn"
+            android:text="7  자연과학관">
+
+        </Button>
+
+        <Button
+            android:id="@+id/num8"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:text="8  생명과학관"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:layout_below="@+id/num6"
+            android:onClick="button8"
+            android:background="@drawable/custom_btn"
+            android:fontFamily="@font/hanna"
+            android:layout_toRightOf="@+id/num7">
+        </Button>
+
+        <Button
+            android:id="@+id/num9"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/num7"
+            android:fontFamily="@font/hanna"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:onClick="button9"
+            android:background="@drawable/custom_btn"
+            android:text="9  Campus Life Center">
+
+        </Button>
+
+        <Button
+            android:id="@+id/num10"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:text="10  사회경영1관"
+            android:onClick="button10"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/custom_btn"
+            android:layout_below="@+id/num7"
+            android:fontFamily="@font/hanna"
+            android:layout_toRightOf="@+id/num9">
+        </Button>
+
+        <Button
+            android:id="@+id/num11"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/num10"
+            android:onClick="button11"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:fontFamily="@font/hanna"
+            android:background="@drawable/custom_btn"
+            android:text="11  일송아트홀">
+
+        </Button>
+
+        <Button
+            android:id="@+id/num12"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:text="12  창업보육센터"
+            android:fontFamily="@font/hanna"
+            android:layout_below="@+id/num10"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:onClick="button12"
+            android:background="@drawable/custom_btn"
+            android:layout_toRightOf="@+id/num11">
+        </Button>
+
+        <Button
+            android:id="@+id/num13"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/num11"
+            android:onClick="button13"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:fontFamily="@font/hanna"
+            android:background="@drawable/custom_btn"
+            android:text="13  사회경영2관">
+
+        </Button>
+
+        <Button
+            android:id="@+id/num14"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:text="14  국제관"
+            android:layout_below="@+id/num11"
+            android:onClick="button14"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:fontFamily="@font/hanna"
+            android:background="@drawable/custom_btn"
+            android:layout_toRightOf="@+id/num13">
+        </Button>
+
+
+        <Button
+            android:id="@+id/num15"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/num13"
+            android:onClick="button15"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:fontFamily="@font/hanna"
+            android:background="@drawable/custom_btn"
+            android:text="15  국제회의관">
+
+        </Button>
+
+        <Button
+            android:id="@+id/num16"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:text="16  기초교육관"
+            android:layout_below="@+id/num14"
+            android:onClick="button16"
+            android:fontFamily="@font/hanna"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/custom_btn"
+            android:layout_toRightOf="@+id/num15">
+        </Button>
+
+        <Button
+            android:id="@+id/num17"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/num16"
+            android:onClick="button17"
+            android:fontFamily="@font/hanna"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/custom_btn"
+            android:text="17  일송기념도서관">
+
+        </Button>
+
+        <Button
+            android:id="@+id/num18"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:text="18  국제관"
+            android:layout_below="@+id/num16"
+            android:onClick="button18"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:fontFamily="@font/hanna"
+            android:background="@drawable/custom_btn"
+            android:layout_toRightOf="@+id/num17">
+        </Button>
+
+        <Button
+            android:id="@+id/num19"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/num18"
+            android:onClick="button19"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:fontFamily="@font/hanna"
+            android:background="@drawable/custom_btn"
+            android:text="19  학군단">
+
+        </Button>
+
+        <Button
+            android:id="@+id/num20"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:text="20  실내테니스장"
+            android:layout_below="@+id/num18"
+            android:onClick="button20"
+            android:fontFamily="@font/hanna"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/custom_btn"
+            android:layout_toRightOf="@+id/num19">
+        </Button>
+
+        <Button
+            android:id="@+id/num21"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/num20"
+            android:onClick="button21"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/custom_btn"
+            android:fontFamily="@font/hanna"
+            android:text="21  한림중개의과학연구원">
+
+        </Button>
+
+        <Button
+            android:id="@+id/num22"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:text="22  산학협력관"
+            android:layout_below="@+id/num20"
+            android:onClick="button22"
+            android:fontFamily="@font/hanna"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/custom_btn"
+            android:layout_toRightOf="@+id/num21">
+        </Button>
+
+        <Button
+            android:id="@+id/num23"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/num22"
+            android:onClick="button23"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/custom_btn"
+            android:fontFamily="@font/hanna"
+            android:text="23  도헌글로벌스쿨">
+
+        </Button>
+
+        <Button
+            android:id="@+id/num24"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:text="24  학생생활관 1관"
+            android:layout_below="@+id/num22"
+            android:onClick="button24"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/custom_btn"
+            android:fontFamily="@font/hanna"
+            android:layout_toRightOf="@+id/num23">
+        </Button>
+
+        <Button
+            android:id="@+id/num25"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/num24"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/custom_btn"
+            android:onClick="button25"
+            android:fontFamily="@font/hanna"
+            android:text="25  학생생활관 2관">
+
+        </Button>
+
+        <Button
+            android:id="@+id/num26"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:text="26  학생생활관 3관"
+            android:layout_below="@+id/num24"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/custom_btn"
+            android:onClick="button26"
+            android:fontFamily="@font/hanna"
+            android:layout_toRightOf="@+id/num25">
+        </Button>
+
+        <Button
+            android:id="@+id/num27"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/num26"
+            android:onClick="button27"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/custom_btn"
+            android:fontFamily="@font/hanna"
+            android:text="27  학생생활관 4관">
+
+        </Button>
+
+        <Button
+            android:id="@+id/num28"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:text="28  학생생활관 5관"
+            android:layout_below="@+id/num26"
+            android:onClick="button28"
+            android:fontFamily="@font/hanna"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/custom_btn"
+            android:layout_toRightOf="@+id/num27">
+        </Button>
+
+        <Button
+            android:id="@+id/num29"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/num28"
+            android:onClick="button29"
+            android:fontFamily="@font/hanna"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/custom_btn"
+            android:text="29  학생생활관 6관">
+
+        </Button>
+
+        <Button
+            android:id="@+id/num30"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:text="30  학생생활관 3관"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/custom_btn"
+            android:layout_below="@+id/num28"
+            android:onClick="button30"
+            android:fontFamily="@font/hanna"
+            android:layout_toRightOf="@+id/num29">
+        </Button>
+
+        <Button
+            android:id="@+id/num31"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/num30"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/custom_btn"
+            android:onClick="button31"
+            android:fontFamily="@font/hanna"
+            android:text="31  학생생활관 8관">
+
+        </Button>
+
+        <Button
+            android:id="@+id/num32"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:text="32  체육 기자제실"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/custom_btn"
+            android:layout_below="@+id/num30"
+            android:onClick="button32"
+            android:fontFamily="@font/hanna"
+            android:layout_toRightOf="@+id/num31">
+        </Button>
+
+        <Button
+            android:id="@+id/num33"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/num32"
+            android:onClick="button33"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/custom_btn"
+            android:fontFamily="@font/hanna"
+            android:text="33  대운동장">
+
+        </Button>
+
+        <Button
+            android:id="@+id/num34"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:text="34  씨름장"
+            android:layout_below="@+id/num32"
+            android:onClick="button34"
+            android:fontFamily="@font/hanna"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/custom_btn"
+            android:layout_toRightOf="@+id/num33">
+        </Button>
+
+        <Button
+            android:id="@+id/num35"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/num34"
+            android:onClick="button35"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/custom_btn"
+            android:fontFamily="@font/hanna"
+            android:text="35  테니스장">
+
+        </Button>
+
+        <Button
+            android:id="@+id/num36"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:text="36  골프장"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/custom_btn"
+            android:layout_below="@+id/num34"
+            android:onClick="button36"
+            android:fontFamily="@font/hanna"
+            android:layout_toRightOf="@+id/num35">
+        </Button>
+
+        <Button
+            android:id="@+id/num37"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/num36"
+            android:onClick="button37"
+            android:fontFamily="@font/hanna"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/custom_btn"
+            android:text="37  다용도체육장">
+
+        </Button>
+
+        <Button
+            android:id="@+id/num38"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:text="38  온실"
+            android:layout_below="@+id/num36"
+            android:onClick="button38"
+            android:fontFamily="@font/hanna"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/custom_btn"
+            android:layout_toRightOf="@+id/num37">
+        </Button>
+
+        <Button
+            android:id="@+id/num39"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:text="39  춘천성심병원"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/custom_btn"
+            android:layout_below="@+id/num37"
+            android:onClick="button39"
+            android:fontFamily="@font/hanna"
+            android:layout_toRightOf="@+id/num38">
+        </Button>
+
+    </RelativeLayout>
+
+</ScrollView>
