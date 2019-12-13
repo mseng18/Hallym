@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SchoolBus">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="1dp">
+
+
+        <TextView
+            android:id="@+id/schoolbustext"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/hanna"
+            android:text="학교버스"
+            android:textAlignment="center"
+            android:textSize="20sp"></TextView>
+
+        <Button
+            android:id="@+id/tonghak"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@+id/schoolbustext"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="3dp"
+            android:background="@drawable/custom_btn"
+            android:fontFamily="@font/hanna"
+            android:text="통학버스"
+            android:textAlignment="center"
+            android:textSize="30sp"></Button>
+
+        <Button
+            android:id="@+id/suttle"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@+id/tonghak"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/custom_btn"
+            android:fontFamily="@font/hanna"
+            android:text="셔틀버스"
+            android:textAlignment="center"
+            android:textSize="30sp"></Button>
+
+        <TextView
+            android:id="@+id/exitbustext"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/suttle"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/hanna"
+            android:text="학교 앞 버스"
+            android:textAlignment="center"
+            android:textSize="20sp"></TextView>
+
+        <Button
+            android:id="@+id/bus02"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@+id/exitbustext"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="3dp"
+            android:background="@drawable/custom_btn"
+            android:fontFamily="@font/hanna"
+            android:text="02번 버스"
+            android:textAlignment="center"
+            android:textSize="30sp"></Button>
+
+        <Button
+            android:id="@+id/bus02s"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@+id/bus02"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="3dp"
+            android:background="@drawable/custom_btn"
+            android:fontFamily="@font/hanna"
+            android:text="02-S번 버스"
+            android:textAlignment="center"
+            android:textSize="30sp"></Button>
+
+        <Button
+            android:id="@+id/bus07s"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@+id/bus02s"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="3dp"
+            android:background="@drawable/custom_btn"
+            android:fontFamily="@font/hanna"
+            android:text="07-S번 버스"
+            android:textAlignment="center"
+            android:textSize="30sp"></Button>
+
+        <Button
+            android:id="@+id/bus10"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@+id/bus07s"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="3dp"
+            android:background="@drawable/custom_btn"
+            android:fontFamily="@font/hanna"
+            android:text="10번 버스(거두리방면)"
+            android:textAlignment="center"
+            android:textSize="30sp"></Button>
+
+        <Button
+            android:id="@+id/bus12"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@+id/bus10"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="3dp"
+            android:background="@drawable/custom_btn"
+            android:fontFamily="@font/hanna"
+            android:text="12번 버스"
+            android:textAlignment="center"
+            android:textSize="30sp"></Button>
+
+
+    </RelativeLayout>
+
+
+</ScrollView>
